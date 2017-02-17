@@ -180,7 +180,7 @@
 				@else
 
 					<div id="login_or_register">
-						<p>Please <a href="{{ url('/') }}./{{ Config::get('chatter.routes.home') }}/login">login</a> or <a href="{{ url('/') }}./{{ Config::get('chatter.routes.home') }}/register">register</a> to leave a response.</p>
+						<p>Please <a href="{{ url('/') }}/{{ Config::get('chatter.routes.home') }}/login">login</a> or <a href="{{ url('/') }}/{{ Config::get('chatter.routes.home') }}/register">register</a> to leave a response.</p>
 					</div>
 
 				@endif
