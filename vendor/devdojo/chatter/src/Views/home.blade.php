@@ -16,7 +16,9 @@
 		<div id="chatter_hero_dimmer"></div>
 		<?php $headline_logo = Config::get('chatter.headline_logo'); ?>
 		@if( isset( $headline_logo ) && !empty( $headline_logo ) )
-			<img src="{{ url('/') }}.{{ Config::get('chatter.headline_logo') }}">
+			<h1>Welcome To Forums</h1>
+			<p>Win or Learn , Never Lose .</p>
+			<!-- <img src="{{ url('/') }}.{{ Config::get('chatter.headline_logo') }}"> -->
 		@else
 			<h1>{{ Config::get('chatter.headline') }}</h1>
 			<p>{{ Config::get('chatter.description') }}</p>
