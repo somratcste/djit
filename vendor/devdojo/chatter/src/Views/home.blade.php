@@ -2,7 +2,7 @@
 
 @section(Config::get('chatter.yields.head'))
     <link href="{{ url('/') }}./vendor/devdojo/chatter/assets/vendor/spectrum/spectrum.css" rel="stylesheet">
-	<link href="{{ url('/') }}./vendor/devdojo/chatter/assets/css/chatter.css" rel="stylesheet">
+	<link href="{{ url('/') }}/vendor/devdojo/chatter/assets/css/chatter.css" rel="stylesheet">
 	@if($chatter_editor == 'simplemde')
 		<link href="{{ url('/') }}./vendor/devdojo/chatter/assets/css/simplemde.min.css" rel="stylesheet">
 	@endif
