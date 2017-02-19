@@ -37,7 +37,6 @@
 
                     <!-- Branding Image -->
                     <a class="navbar-brand" href="{{ url('/') }}">
-                        <!-- {{ config('app.name', 'Forum') }} -->
                         Home
                     </a>
                 </div>
