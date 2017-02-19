@@ -16,7 +16,20 @@ class ChatterDiscussionController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    
+    public function index(Request $request)
+    {
+        $total = 10;
+        $offset = 0;
+        if ($request->total) {
+            $total = $request->total;
+        }
+        if ($request->offset) {
+            $offset = $request->offset;
+        }
+        $discussions = Models::discussion()->with('user')->with('post')->with('postsCount')->with('category')->orderBy('created_at', 'ASC')->take($total)->offset($offset)->get();
+
+        return response()->json($discussions);
+    }
 
     /**
      * Show the form for creating a new resource.
