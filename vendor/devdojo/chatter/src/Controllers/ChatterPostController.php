@@ -124,6 +124,7 @@ class ChatterPostController extends Controller
         return false;
     }
 
+    // Send mail Notification 
     private function sendEmailNotifications($discussion)
     {
         $users = $discussion->users->except(Auth::user()->id);
