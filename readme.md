@@ -1,36 +1,61 @@
-<p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
+<p align="center">Forums</p>
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://raw.githubusercontent.com/somratcste/forums/develop/public/screenshots/home.png" alt="License"></a>
-</p>
+<a href="http://forums.somrat.info/forums"><img src="https://raw.githubusercontent.com/somratcste/forums/develop/public/screenshots/home.png" alt="Forums"></a>
 
-## About Laravel
+## Forums Application
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as:
+Production : http://forums.somrat.info/forums
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## Documentation 
 
-Laravel is accessible, yet powerful, providing tools needed for large, robust applications. A superb combination of simplicity, elegance, and innovation give you tools you need to build any application with which you are tasked.
+This is an Forums Application . It's main freatures are .... 
 
-## Learning Laravel
+- Login
 
-Laravel has the most extensive and thorough documentation and video tutorial library of any modern web application framework. The [Laravel documentation](https://laravel.com/docs) is thorough, complete, and makes it a breeze to get started learning the framework.
+- Thread
+-- Add New Discussion
+-- List
+-- Registration
+-- Edit
+-- Delete
 
-If you're not in the mood to read, [Laracasts](https://laracasts.com) contains over 900 video tutorials on a range of topics including Laravel, modern PHP, unit testing, JavaScript, and more. Boost the skill level of yourself and your entire team by digging into our comprehensive video library.
+- Comment 
+-- List / Register / Edit / Delete (All in the same Screen).
+
+- Development Process : https://github.com/somratcste/forums/commits/master
+
+## Version 
+
+-- 1.0 
+
+## Screenshot 
+
+<a href="http://forums.somrat.info/forums"><img src="https://raw.githubusercontent.com/somratcste/forums/develop/public/screenshots/home.png" alt="Forums"></a>
+<a href="http://forums.somrat.info/forums"><img src="https://raw.githubusercontent.com/somratcste/forums/develop/public/screenshots/single_post.png" alt="Forums"></a>
+<a href="http://forums.somrat.info/forums"><img src="https://raw.githubusercontent.com/somratcste/forums/develop/public/screenshots/new_post.png" alt="Forums"></a>
+
+## Installation Introduction
+
+I am developed this project with php laravel framework. [Laravel](https://laravel.com/docs) is a web application framework with expressive, elegant syntax.
+
+1. Clone the repo from `git@github.com:somratcste/forums.git`
+2. composer install
+3. Create database names with `forums` in your `phpmyadmin`
+4. Import Database 
+5. `php artisan key:generate`
+6. `php artisan migrate`
+
+- Database : https://drive.google.com/file/d/0B0gy9SQFw-S8VDZySEZwMmp2LTg/view?usp=sharing
 
 ## Security Vulnerabilities
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
+ The security/protection of this application against XSS, CSRF, SQL Injection attacks all are provided. If you discover a security vulnerability within application, please send an e-mail to me at somratcste@gmail.com. All security vulnerabilities will be promptly addressed.
+
+## Author 
+
+G. M. Nazmul Hossain Somrat
+Web : http://www.somrat.info/
 
 ## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+GNU
