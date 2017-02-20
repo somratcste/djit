@@ -1,6 +1,4 @@
-<p align="center">Forums</p>
-
-## Forums Application
+## Forum
 
 Production : http://forums.somrat.info/forums
 
