@@ -35,7 +35,7 @@ Development Process : https://github.com/somratcste/forums/commits/master
 I am developed this project with php laravel framework. [Laravel](https://laravel.com/docs) is a web application framework with expressive, elegant syntax.
 
 1. Clone the repo from `git@github.com:somratcste/forums.git`
-2. composer install
+2. `composer install`
 3. Create database names with `forums` in your `phpmyadmin`
 4. Import Database 
 5. `php artisan key:generate`
