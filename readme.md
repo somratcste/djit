@@ -8,14 +8,14 @@ This is an Forums Application . It's main freatures are ....
 
 - Login
 
-`Thread : ` 
+Thread : 
 - Add New Discussion
 - List
 - Registration
 - Edit
 - Delete
 
-`Comment : `
+Comment : 
 - List / Register / Edit / Delete (All in the same Screen).
 
 Development Process : https://github.com/somratcste/forums/commits/master
