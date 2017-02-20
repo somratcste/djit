@@ -1,7 +1,5 @@
 <p align="center">Forums</p>
 
-<a href="http://forums.somrat.info/forums"><img src="https://raw.githubusercontent.com/somratcste/forums/develop/public/screenshots/home.png" alt="Forums"></a>
-
 ## Forums Application
 
 Production : http://forums.somrat.info/forums
@@ -12,21 +10,21 @@ This is an Forums Application . It's main freatures are ....
 
 - Login
 
-- Thread
--- Add New Discussion
--- List
--- Registration
--- Edit
--- Delete
+- `Thread : ` 
+- Add New Discussion
+- List
+- Registration
+- Edit
+- Delete
 
-- Comment 
--- List / Register / Edit / Delete (All in the same Screen).
+- `Comment : `
+- List / Register / Edit / Delete (All in the same Screen).
 
 - Development Process : https://github.com/somratcste/forums/commits/master
 
 ## Version 
 
--- 1.0 
+1.0 
 
 ## Screenshot 
 
@@ -45,7 +43,7 @@ I am developed this project with php laravel framework. [Laravel](https://larave
 5. `php artisan key:generate`
 6. `php artisan migrate`
 
-- Database : https://drive.google.com/file/d/0B0gy9SQFw-S8VDZySEZwMmp2LTg/view?usp=sharing
+Database : https://drive.google.com/file/d/0B0gy9SQFw-S8VDZySEZwMmp2LTg/view?usp=sharing
 
 ## Security Vulnerabilities
 
@@ -54,6 +52,7 @@ I am developed this project with php laravel framework. [Laravel](https://larave
 ## Author 
 
 G. M. Nazmul Hossain Somrat
+
 Web : http://www.somrat.info/
 
 ## License
