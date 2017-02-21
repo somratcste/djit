@@ -1,7 +1,8 @@
 ## Forum
 
 Production 	: http://forums.somrat.info/forums
-User Demo 	: somrat@gmail.com
+
+Demo User 	: somrat@gmail.com
 password 	: 123456
 
 ## Documentation 
