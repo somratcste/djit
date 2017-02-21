@@ -2,8 +2,8 @@
 
 Production 	: http://forums.somrat.info/forums
 
-Demo User 	: somrat@gmail.com
-password 	: 123456
+Demo User 	: `somrat@gmail.com`
+password 	: `123456`
 
 ## Documentation 
 
